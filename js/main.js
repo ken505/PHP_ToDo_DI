@@ -8,8 +8,7 @@
       this.ctx = this.canvas.getContext("2d");
       this.TILE_SIZE = 70;
       this.img = document.createElement("img");
-      // this.img.src = "img/animal1.png";
-      this.img.src = "img/ken.jpg";
+      this.img.src = "img/animal1.png";
       this.img.addEventListener("load", () => {
         this.render();
       });
